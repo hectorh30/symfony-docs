@@ -44,7 +44,7 @@ The example above could then be rewritten as::
     {
         private $logger;
 
-        public function __constructor(LoggerInterface $logger)
+        public function __construct(LoggerInterface $logger)
         {
             $this->logger = $logger;
         }
